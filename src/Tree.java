@@ -9,8 +9,7 @@ public class Tree {
         this.root = root;
 
         if (subtrees.isEmpty()) {
-            ArrayList<Tree> emptySubtrees = new ArrayList<>();
-            this.subtrees = emptySubtrees;
+            this.subtrees = new ArrayList<>();
         } else {
             this.subtrees = subtrees;
         }
