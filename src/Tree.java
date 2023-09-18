@@ -16,6 +16,10 @@ public class Tree {
 
     }
 
+    private boolean isEmpty() {
+        return this.subtrees.isEmpty();
+    }
+
 }
 
 
